@@ -1,4 +1,4 @@
-const anak_ayam=parseInt(prompt("Masukan jumlah anak ayam:"))
+/*const anak_ayam=parseInt(prompt("Masukan jumlah anak ayam:"))
 
 console.log("Anak ayam "+anak_ayam);
 
@@ -8,4 +8,16 @@ for (let i=anak_ayam; i>0; i--){
     }else{
         console.log("Anak ayam turun 1, mati satu, tinggal induknya")
     }
+}*/
+
+/*
+var s = "";
+
+for (var i = 0; i < 5; i++) {
+  for (var j = 0; j <= i; j--) {
+    s += "*";
+  }
+  s += "\n";
 }
+console.log(s);
+*/
