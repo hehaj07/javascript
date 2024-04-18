@@ -37,12 +37,12 @@ do {
 
     case "2":
       a = prompt("Masukan Nilai Jari-jari: ");
-      console.log(luas_lingkaran(a, b));
+      console.log(parseFloat(luas_lingkaran(a, b)));
       break;
     case "3":
       a = prompt("Masukan Nilai Alas: ");
       b = prompt("Masukan Nilai Tinggi: ");
-      console.log(luas_segitiga(a, b));
+      console.log(parseFloat(luas_segitiga(a, b)));
       break;
     default:
       alert("Menu yang anda pilih tidak tersedia");
