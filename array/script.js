@@ -1,7 +1,7 @@
 //cara membuat array
 
 // cara pertama
-
+/*
 const angka=new Array(1,3,5,7,9);
 
 console.log (angka);
@@ -54,4 +54,55 @@ console.log(angka3)
 delete angka3[0];
 
 console.log(angka3);
+*/
 
+// array method
+
+const arr =[3,5,7,9,11];
+
+//menampilkan length = jumlah isi dari array
+
+console.log(arr.length);
+
+//join= menggabungkan isi array menjadi sebuah string
+
+const word =['K', 'A','M','U']
+const word2 =["Onegai", "shimasu"]
+console.log(word.join(""))
+console.log(word2.join(" "))
+
+
+//push = menambahkan elemen array dibagian akhir
+
+arr.push(13,15,17);
+word.push(",", "i", "y", "a", " ", "k","a","m","u");
+word2.push("to", "Karawang");
+
+console.log(arr)
+
+console.log(word.join("")+" \n"+word2.join(" "));
+
+
+//pop= menghapus elemen terakhir pada array
+
+arr.pop()
+
+console.log(arr)
+
+
+//unshift = menambahkan elemen diawal array
+
+arr.unshift(1)
+console.log(arr)
+
+//shift= menghapus elemen pertama diarray
+
+word.shift()
+console.log(word.join(""))
+
+//slice (indexAwal, indexAkhir)
+const siswa=["Maul", "Gofal", "Isal","Opik","Rian"]
+
+//slice akan menghasilkan array baru
+const siswa2=siswa.slice(1,3);
+console.log(siswa2);
